@@ -1,0 +1,135 @@
+<html>
+    <head>
+        <title>Portfolio</title>
+    </head> 
+    <style> 
+        .main{ 
+            color:red;
+            height:3rem;
+            width:100%; 
+            background-color:blue;
+	        text-align:center;  
+            font-size:2rem; 
+        } 
+        .imge{
+            margin-top:0.5rem ;
+            padding-top:0.5rem;
+        } 
+        .text{
+            height:7rem;
+            width:100%; 
+            background-color:orange;
+            text-align:center;
+        } 
+        .list{
+            list-style-type:none; 
+            background-color:brown; 
+            margin-top:0.5rem; 
+            height:2.5rem;
+            width:60%; 
+            padding-top:0.5rem; 
+            font-size:2rem;
+            padding-left:30%;
+            color:black; 
+            border-radius:50%;
+        } 
+        .info{  margin-top:0.5rem; 
+            padding-left:2rem;
+            height:2.5rem;
+            width:100%; 
+            background-color:white;
+            color:black;
+            margin-right:70%;
+            padding-right:40%;
+            
+        } 
+        .hobby{ 
+            height:3rem;
+            width;2rem;
+            margin-top:17rem;
+            background-color:pink; 
+            text-align:center;
+            color:red; 
+            font-size:2rem; 
+            border-radius:10%; 
+            margin-left:30%;
+            margin-right:40%;
+            
+        }
+        .hding{
+            margin-right:50%;
+            width:60%; 
+            background-color:grey; 
+        }
+        .circle{
+            width:100px;
+            height:100px;
+            border-radius:50%;  
+            background-color:orange;
+            margin-top:2rem;
+            margin-left:10%;
+            padding-top:1rem;
+            float:left;
+
+        }
+        .content{
+            margin-top:0.2rem;
+            margin-left:1.4rem;
+        }
+        .footerc{
+            margin-top:10rem;
+            width:100%;
+            height:10rem;
+            background-color:black;
+        }
+        .last{
+            margin-left:10rem;
+            margin-top:10rem;
+            padding-top:10rem;
+        }
+    </style>
+    <body> 
+        <div class="main">
+            Portfolio
+        </div> 
+        <div class="imge"> 
+            <img src="https://th.bing.com/th/id/OIP.UYV_bihup-y039M8_Dk0KQHaFP?pid=ImgDet&rs=1" height="60%" width="100%">
+        </div>
+        <div class="text">
+           <i> <h1> hey! </h1> </i>
+            <h3>I am Yogesh Kumar Sharma <br>
+               studying at Sanskriti University</h3>
+            </div> 
+         <div class="info"> 
+          <div class="hding"> <h2>having knowledge of  programming language </h2></div> 
+           <ul class=""> 
+            <li class="list"><b> C</b></li> 
+            <li class="list"><b> C++</b></li> 
+            <li class="list"><b>Python</b></li> 
+            <li class="list"><b> html/css/javascript</b></li> 
+
+           </ul>
+        </div> 
+           <div class="hobby"> 
+             <h2><i>Hobbies</i></h2>
+           </div> 
+           <div class="circle">
+            <div class="content"> 
+                <img src="https://radioclaret.net/wp-content/uploads/2016/06/child-reading-book_icon-icons.com_49243.png" width="50rem" height="50rem;">
+            <b>Reading<br> Book</b>
+           </div></div>
+        </div>
+           <div class="circle">
+            <div class="content"> 
+            <img src="https://s1.mzstatic.com/us/r30/Purple5/v4/29/0e/47/290e4783-6bd7-8c23-b7a5-6049e3924ed8/pr_source.jpg?downloadKey=1416960275_e623330f1aaa03c0b946de4648f88d90" width="50rem" height="50rem">
+            <b>Music</b>    
+            </div>       
+        </div>
+        
+            <div class="last">
+                <img src="https://th.bing.com/th/id/OIP.-ZvyDC_FYYqDZsZ9pUDYjgHaHa?pid=ImgDet&w=5000&h=5000&rs=1"width="20rem" height="20rem">2022-23
+                <br><b><h2>developed by :Yogesh Kumar Sharma</h2></b><br>
+            </div>
+        
+    </body>
+    </html>
